@@ -15,6 +15,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     border: black solid 1px;
+    
 }
 
 .abcd {
@@ -47,5 +48,11 @@ i {
 .hvit {
     color: #000000;
 
+
+}
+
+i:hover {
+    opacity: 0.8;
+    transform: scale(1.08);
 
 }
