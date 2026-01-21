@@ -29,15 +29,23 @@ body {
 
 .svart {
     background-color: rgb(94, 171, 94);
+
 }
 
 .rute {
     width: 81px;
     height: 81px;
+    display: flex;
+    align-items: center;
 }
 
 i {
     font-size: 65px;
     text-align: center;
+}
+
+.hvit {
+    color: #000000;
+
 
 }
