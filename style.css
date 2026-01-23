@@ -16,6 +16,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     border: black solid 1px;
+    
 }
 
 .abcd {
@@ -30,11 +31,14 @@ body {
 
 .svart {
     background-color: rgb(94, 171, 94);
+
 }
 
 .rute {
     width: 81px;
     height: 81px;
+    display: flex;
+    align-items: center;
 }
 
 i {
