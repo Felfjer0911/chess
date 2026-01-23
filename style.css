@@ -16,7 +16,8 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     border: black solid 1px;
-    
+    margin-right: 300px;
+
 }
 
 .abcd {
@@ -27,6 +28,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
 
     border: black solid 1px;
+    margin-right: 1;
 }
 
 .svart {
@@ -50,6 +52,23 @@ i {
 .a {
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 
-    justify-items: center;
+}
+
+.storboks {
+    display: flex;
+}
+
+.o123 {
+
+    margin: auto;
+    width: 75px;
+    height: 648px;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: black solid 1px;
+    margin-left: 223px;
+
 }
