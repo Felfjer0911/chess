@@ -3,10 +3,11 @@ body {
     height: 100vh;
     justify-content: center;
     align-content: center;
-    flex-direction: ;
- 
+    flex-direction: column;
+    padding-top: 100px;
+
 }
- 
+
 .sjakkbrett {
     margin: auto;
     width: 648px;
@@ -16,29 +17,35 @@ body {
     grid-template-rows: repeat(8, 1fr);
     border: black solid 1px;
 }
- 
+
 .abcd {
     margin: auto;
     width: 648px;
     height: 75px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
- 
+
     border: black solid 1px;
 }
- 
+
 .svart {
     background-color: rgb(94, 171, 94);
 }
- 
+
 .rute {
     width: 81px;
     height: 81px;
 }
- 
+
 i {
     font-size: 65px;
     text-align: center;
- 
+
 }
- 
+
+.a {
+
+    display: flex;
+
+    justify-items: center;
+}
