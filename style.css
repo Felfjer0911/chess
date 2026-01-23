@@ -72,3 +72,14 @@ i {
     margin-left: 223px;
 
 }
+
+#bonde,
+#bonde1,
+#bonde2,
+#bonde3,
+#bonde4,
+#bonde5,
+#bonde6,
+#bonde7 {
+    position: absolute;
+}
